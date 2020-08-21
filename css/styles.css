@@ -1,0 +1,102 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Noto Sans JP', sans-serif; 
+    height: 100vh;
+
+}
+
+header {
+   /* background-image: url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_960_720.jpg);*/
+    background-size: auto 100vh;
+    height: 100vh;
+}
+
+section {
+    background-size: auto 100vh;
+    height: 100vh;
+}
+.menu {
+    background-color: #FFC5CB;
+    font-size: 20px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    transition: background-color 1.5s, color 1.5s;
+}
+
+a {
+    color: #A87DC2;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(200, 172, 169);
+}
+
+.titulo {
+    color: black;
+    text-align: center;
+}
+
+.subtitle,
+.site-titulo {
+    font-family: 'Handlee', cursive;
+    color:  #A87DC2;
+}
+
+.home {
+    display: grid;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home .imgHome {
+    height: 350px;
+    width: 350px;
+
+    align-content: center;
+    justify-content: center;
+
+}
+
+section {
+    display: grid;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #FFC5CB;
+    color: #A87DC2;
+    text-align: center;
+    padding: 50px;
+}
